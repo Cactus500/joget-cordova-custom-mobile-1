@@ -1,19 +1,18 @@
 # Description
 
-Native hybrid mobile app for the [Joget](https://www.joget.com) no-code/low-code platform using [Apache Cordova](https://cordova.apache.org/).
+Nice framework/premade base for any html css js app you would like to port to an Android or iOS (you will need a mac if so.)
 
-
-# Prerequisite Checklist
+# Prerequisite Checklist 🏁
 
 Ensure that you have the following prerequisite information and files ready for Android and iOS development:
 
-### Android (https://developer.android.com/studio/publish/app-signing)
+### Android 🤖(https://developer.android.com/studio/publish/app-signing)
 1. Android package name
 2. Android signing keystore file: android.keystore 
 3. Android signing keystore alias
 4. Android signing keystore password
 
-### iOS (https://developer.apple.com/support/code-signing/)
+### iOS 🍎(https://developer.apple.com/support/code-signing/)
 1. iOS App ID (Bundle ID)
 2. App store provisioning profile name
 3. App store provisioning profile file:  ios-appstore.mobileprovision
@@ -21,14 +20,16 @@ Ensure that you have the following prerequisite information and files ready for 
 5. Apple distribution certificate password
 6. Apple Team ID
 
-### Firebase Push Notifications (https://firebase.google.com/docs/guides)
+### Firebase Push Notifications 🔥(https://firebase.google.com/docs/guides)
 1. Firebase project number
 2. Android Google Services JSON file: android-google-services.json
 3. iOS Google Service Plist file: ios-GoogleService-info.plist 
 
-# Customization
+# Customization 🖌️
 
-### Customize App Configuration
+----following things may contain errors because i edited the project but too lazy to correct all the docs and readme-----
+
+### Customize App Configuration ⚙️
 
 Update `config.xml` to replace the package name, ID, version, name, description and author details as required:
 
@@ -45,7 +46,7 @@ Update `config.xml` to replace the package name, ID, version, name, description 
                 android:authorities="com.example.custom.mobile.provider"
 ```
 
-### Customize Title and About Dialog
+### Customize Title and About Dialog 🧾
 
 Update the title in `www/index.html` as required:
 
